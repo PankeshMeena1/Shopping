@@ -1,0 +1,278 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ============ navbar=============== */
+.ind1 {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+
+.ind1 li {
+  list-style: none;
+  margin-top: 20px;
+  margin: 25px
+}
+
+.ind1 li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+#img {
+  margin-top: -15px;
+ 
+}
+
+#img img {
+  width: 150px;
+  margin-right: 420px;
+  box-shadow: 2px 2px 5px ;
+  border-radius: 75px;
+}
+
+#serch a {
+  border: 1px solid rgb(241, 244, 245);
+  border-radius: 75px;
+  padding: 12px;
+  box-shadow: 2px 2px 5px;
+}
+#aaaa{
+  border: 1px solid rgb(215, 230, 236);
+  border-radius: 75px;
+  padding: 12px;
+  box-shadow: 2px 2px 5px;
+}
+#fa{
+  font-size: 20px;
+}
+
+/* ==============================######### front page ########================================= */
+
+.bag1{
+  display: flex;
+  justify-content: center;
+  height: 570px;
+  margin-top: 0%;
+}
+.img33{
+  width: 50%;
+}
+.img20{
+  width:200px;
+  margin-top: 130px;
+  
+}
+.img78{
+  width: 50%;
+}
+.img55{
+
+  margin-left: 100px;
+  margin-top: 20px;
+  
+}
+.img55  img{
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 50px;
+    
+  }
+  #mm11 a{
+    width: 200px;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: rgb(173, 203, 229);
+    border-radius: 75px;
+
+  }
+
+#mm11 a:hover{
+  cursor: pointer;
+  background-color: rgb(9, 9, 82);
+  color: white;
+}
+.my{
+  height: 50px;
+  font-size: 40px;
+  font-style: italic;
+  color: rgb(6, 6, 92);
+}
+
+/* =========================== Diffrente chal rha he ================================================== */
+.diff{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 400px;
+  font-size: 35px;
+  padding: 8px;
+  background-color: rgb(8, 8, 73);
+  border-radius: 75px;
+  width: 550px;
+  color: white;
+}
+.type{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-top: 30px;
+}
+.type1{
+  display: flex;
+  width: 100%;
+}
+.type1 img{
+  width: 300px;
+  border-radius: 20px;
+  margin-left: 30px;
+  
+}
+#mm12{
+  width: 200px;
+  text-align: center;
+  margin-left: 80px;
+  font-size: 23px;
+  padding: 4px;
+  background-color: rgb(173, 203, 229);
+  border-radius: 75px;
+}
+#mm12:hover{
+  cursor: pointer;
+  background-color: rgb(9, 9, 82);
+  color: white;
+}
+/* =========================== Box =================================== */
+.details {
+  height: 470px;
+  width: 400px;
+  background-color: rgba(254, 250, 250, 0.973);
+  border: 1px solid teal;
+  border-radius: 30px;
+  display: none;
+  position: absolute;
+  scale: 1;
+  z-index: 10;
+}
+
+#deta:checked~.details {
+  position: absolute;
+  display: block;
+  left: 400px;
+  top: 100px;
+
+}
+
+.details form {
+  margin: 20px;
+}
+
+.formgrid {
+  display: grid;
+  grid-template-columns: auto;
+
+}
+
+.formgrid input {
+  padding: 2px;
+}
+
+.country {
+  margin-bottom: 5px;
+}
+
+.country input {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+
+.details form h2 a {
+  margin-right: 100px;
+}
+.details form h2{
+  color: rgb(3, 3, 77);
+}
+
+#des {
+  margin-top: 10px;
+}
+
+.button {
+  background-color: rgb(3, 4, 71);
+  border-radius: 75px;
+  color: white;
+  padding: 13px;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+}
+/* ================================== Footer ================================== */
+.fullfooter{
+  background-color: rgba(0, 0, 0, 0.063);
+}
+.foot{
+  padding: 35px;
+  
+}
+.future{
+  font-size: 30px;
+  margin: 20px;
+}
+
+.popular a{
+  text-decoration: none;
+  color: black;
+  padding: 7px;
+}
+
+.grid2{
+  padding-top: 10px;
+  border-top: 1px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid2 div a{
+  text-decoration: none;
+  padding: 5px;
+}
+
+.footerseclast{
+  margin-top: 20px ;
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.line3{
+  padding-right: 120px;
+}
+.line3 a{
+  padding: 5px ;
+  margin: 0px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.665);
+}
+.maintop{
+  font-size: 20px ;
+}
+.last{
+  display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.325);
+  padding: 35px;
+}
+.terms a{
+text-decoration: none;
+color: black;
+}
+.fti{
+  margin-left: 580px;
+}
+.fti a{
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+}
